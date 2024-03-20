@@ -17,6 +17,7 @@ export const ProgressAtom = ({
 }: Props) => {
   return (
     <Progress
+      color={undefined}
       label={label}
       valueLabel={valueLabel}
       size={size}
@@ -24,6 +25,7 @@ export const ProgressAtom = ({
       maxValue={maxValue}
       showValueLabel={true}
       classNames={{
+        indicator: 'bg-cl-primary-progress',
         track: 'bg-cl-primary',
         value: 'text-foreground/60 text-xs mt-[3px]',
       }}

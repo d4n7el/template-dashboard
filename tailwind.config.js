@@ -12,7 +12,6 @@ export default {
   theme: {
     colors: {
       'cl-primary': 'rgb(65,0,255)',
-      'cl-secondary': 'rgb(65,0,255)',
       'cl-black': 'rgb(0,0,0)',
       'cl-gray-light': '#DDDDE0',
       'cl-white': 'rgb(255,255,255)',

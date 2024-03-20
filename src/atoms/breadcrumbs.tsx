@@ -17,7 +17,7 @@ export const BreadcrumbsAtom = () => {
         <BreadcrumbItem
           key={item}
           classNames={{
-            item: ['text-lg'],
+            item: ['text-lg capitalize'],
             separator: 'font-bold text-cl-black',
           }}
         >

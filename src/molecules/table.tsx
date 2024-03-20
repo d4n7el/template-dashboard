@@ -93,8 +93,10 @@ export const TableMolecule = ({ data, columns, settingGrid }: Props) => {
       onRowAction={() => {}}
       checkboxesProps={{
         classNames: {
-          wrapper: 'after:bg-cl-primary',
+          wrapper: ['after:bg-cl-primary'],
         },
+        radius: 'none',
+        size: 'sm',
       }}
       classNames={{
         wrapper: ['shadow-none'],

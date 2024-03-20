@@ -1,3 +1,6 @@
 .table-checkbox tbody tr td:first-child {
   width: 30px;
 }
+.bg-cl-primary-progress {
+  background-color: rgb(65, 0, 255) !important;
+}

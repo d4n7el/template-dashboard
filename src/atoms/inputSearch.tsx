@@ -30,7 +30,7 @@ export const InputSearchAtom = ({ icon }: Props) => {
           '!cursor-text',
           'data-[hover=true]:bg-transparent',
           'group-data-[focus=true]:bg-transparent',
-          'h-[55px]',
+          'h-[45px]',
           'py-2',
         ],
         innerWrapper: [

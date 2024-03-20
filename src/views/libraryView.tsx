@@ -8,7 +8,7 @@ export const LibraryView = () => {
   return (
     <div className=''>
       <HeaderOptions />
-      <section className='mt-10 w-80'>
+      <section className='mt-10 w-96'>
         <InputSearchAtom icon='icon-[teenyicons--search-outline]' />
       </section>
       <section className='mt-10 table-checkbox'>
