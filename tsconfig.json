@@ -10,7 +10,9 @@
       "@views/*": ["./src/views/*"],
       "@routes/*": ["./src/routes/*"],
       "@atoms/*": ["./src/atoms/*"],
-      "@molecules/*": ["./src/molecules/*"]
+      "@molecules/*": ["./src/molecules/*"],
+      "@mock/*": ["./src/mock/*"],
+      "@interface/*": ["./src/interface/*"]
     },
 
     /* Bundler mode */
