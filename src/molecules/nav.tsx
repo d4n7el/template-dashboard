@@ -33,7 +33,7 @@ export const Nav = () => {
           <ButtonAtom
             text='Player'
             type='flat-secondary'
-            icon='icon-[ph--play-circle]'
+            icon='icon-[material-symbols--play-circle-outline]'
             iconSize='w-6 h-6'
             classNames='w-full flex justify-start'
           ></ButtonAtom>
