@@ -3,70 +3,70 @@
     "id": 1,
     "name": "Afiliado Master",
     "count_videos": 16,
-    "video_size": 473,
+    "video_size": "7.3 GB",
     "update": "10/12/2022"
   },
   {
     "id": 2,
     "name": "BeMaster",
     "count_videos": 75,
-    "video_size": 399,
+    "video_size": "1.4 GB",
     "update": "7/6/2023"
   },
   {
     "id": 3,
     "name": "Comizzión",
     "count_videos": 45,
-    "video_size": 196,
+    "video_size": "284 MB",
     "update": "6/8/2023"
   },
   {
     "id": 4,
     "name": "Creador de Contenido",
     "count_videos": 48,
-    "video_size": 925,
+    "video_size": "4.3 GB",
     "update": "10/23/2022"
   },
   {
     "id": 5,
     "name": "Exportados Wil",
     "count_videos": 62,
-    "video_size": 69,
+    "video_size": "500 MB",
     "update": "11/25/2022"
   },
   {
     "id": 6,
     "name": "Afiliado Master",
     "count_videos": 65,
-    "video_size": 153,
+    "video_size": "7.3 GB",
     "update": "1/31/2024"
   },
   {
     "id": 7,
     "name": "BeMaster",
     "count_videos": 100,
-    "video_size": 817,
+    "video_size": "1.4 GB",
     "update": "3/23/2023"
   },
   {
     "id": 8,
     "name": "Comizzión",
     "count_videos": 78,
-    "video_size": 975,
+    "video_size": "284 MB",
     "update": "5/13/2022"
   },
   {
     "id": 9,
     "name": "Creador de Contenido",
     "count_videos": 10,
-    "video_size": 126,
+    "video_size": "500 MB",
     "update": "3/19/2023"
   },
   {
     "id": 10,
     "name": "Exportados Wil",
     "count_videos": 94,
-    "video_size": 515,
+    "video_size": "4.3 GB",
     "update": "4/15/2023"
   }
 ]

@@ -16,15 +16,16 @@ import {
   TableCell,
 } from '@nextui-org/react';
 import { useState } from 'react';
-import { settingCellGrid } from '../const/setting-cell-grid';
 import { useNavigate } from 'react-router-dom';
+import { settingGrid } from '@interface/library.interface';
 
 interface Props<T = any> {
   data: T[];
   columns: ColumnDef<T>[];
+  settingGrid: settingGrid[];
 }
 
-export const TableMolecule = ({ data, columns }: Props) => {
+export const TableMolecule = ({ data, columns, settingGrid }: Props) => {
   const navigate = useNavigate();
 
   const [pagination, setPagination] = useState({
@@ -52,16 +53,14 @@ export const TableMolecule = ({ data, columns }: Props) => {
   };
 
   const getSettingCell = (cell: Header<any, unknown> | Cell<any, unknown>) => {
-    return settingCellGrid.find((x) => x.id === cell.getContext().column.id);
+    return settingGrid.find((x) => x.id === cell.getContext().column.id);
   };
 
   const headers = table.getHeaderGroups()[0].headers;
   const headerElements = headers.map((header) => (
     <TableColumn
       key={header.id}
-      className={`w-[${header.column.getSize()}px] ${
-        getSettingCell(header)?.headerClassName
-      }`}
+      className={`${getSettingCell(header)?.headerClassName}`}
     >
       {flexRender(header.column.columnDef.header, header.getContext())}
     </TableColumn>

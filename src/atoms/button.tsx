@@ -7,6 +7,7 @@ export interface Props {
   onlyIcon?: boolean;
   iconSize?: string;
   classNames?: string;
+  action?: () => void;
 }
 
 export const ButtonAtom = ({
@@ -16,6 +17,7 @@ export const ButtonAtom = ({
   iconSize,
   classNames,
   icon,
+  action,
 }: Props) => {
   const setStyles = () => {
     if (type === 'primary') return setPrimaryStyles();
@@ -52,10 +54,15 @@ export const ButtonAtom = ({
 
   return (
     <Button
+      onClick={() => {
+        action ? action() : () => {};
+      }}
       startContent={
         icon ? (
           <span
-            className={`${icon} mr-2 ${setOnlyIconStyles()} ${iconSize} `}
+            className={`${icon} ${
+              icon && text ? 'mr-2' : ''
+            }  ${setOnlyIconStyles()} ${iconSize} `}
           ></span>
         ) : null
       }

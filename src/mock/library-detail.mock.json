@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Entrenamiento.mp4",
+    "duration": "04:11:37",
+    "video_size": "7.3 GB",
+    "update": "30/may/2023"
+  },
+  {
+    "id": 2,
+    "name": "Salida-al-mercado-versión nueva.mp4",
+    "duration": "47:55",
+    "video_size": "1.4 GB",
+    "update": "22/jun/2022"
+  },
+  {
+    "id": 3,
+    "name": "Como-cerrar-una-venta.mp4",
+    "duration": "10:12",
+    "video_size": "284 MB",
+    "update": "11/sep/2021"
+  },
+  {
+    "id": 4,
+    "name": "Crea-un-ticket-valioso.mp4",
+    "duration": "03:50:22",
+    "video_size": "4.3 GB",
+    "update": "21/jun/2023"
+  },
+  {
+    "id": 5,
+    "name": "Conquista-el-mercado-digital.mp4",
+    "duration": "5:00",
+    "video_size": "500 MB",
+    "update": "5/abr/2023"
+  },
+  {
+    "id": 6,
+    "name": "Salida-al-mercado-versión nueva.mp4",
+    "duration": "47:55",
+    "video_size": "04:11:37",
+    "update": "1/31/2024"
+  },
+  {
+    "id": 7,
+    "name": "Entrenamiento.mp4",
+    "duration": "03:50:22",
+    "video_size": "7.3 GB",
+    "update": "30/may/2023"
+  },
+  {
+    "id": 8,
+    "name": "Como-cerrar-una-venta.mp4",
+    "duration": "10:12",
+    "video_size": "284 MB",
+    "update": "11/sep/2021"
+  },
+  {
+    "id": 9,
+    "name": "Crea-un-ticket-valioso.mp4",
+    "duration": "03:50:22",
+    "video_size": "4.3 GB",
+    "update": "21/jun/2023"
+  },
+  {
+    "id": 10,
+    "name": "Conquista-el-mercado-digital.mp4",
+    "duration": "5:00",
+    "video_size": "500 MB",
+    "update": "5/abr/2023"
+  }
+]

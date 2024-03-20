@@ -12,7 +12,8 @@
       "@atoms/*": ["./src/atoms/*"],
       "@molecules/*": ["./src/molecules/*"],
       "@mock/*": ["./src/mock/*"],
-      "@interface/*": ["./src/interface/*"]
+      "@interface/*": ["./src/interface/*"],
+      "@const/*": ["./src/const/*"]
     },
 
     /* Bundler mode */
