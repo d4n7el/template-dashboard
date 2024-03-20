@@ -8,7 +8,9 @@
     "paths": {
       "@components/*": ["./src/components/*"],
       "@views/*": ["./src/views/*"],
-      "@routes/*": ["./src/routes/*"]
+      "@routes/*": ["./src/routes/*"],
+      "@atoms/*": ["./src/atoms/*"],
+      "@molecules/*": ["./src/molecules/*"]
     },
 
     /* Bundler mode */
