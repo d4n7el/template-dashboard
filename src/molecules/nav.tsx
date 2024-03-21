@@ -21,14 +21,23 @@ export const Nav = () => {
       >
         <div
           className={`${
-            isOpenNav ? 'right-4' : 'right-6'
-          } absolute top-4 cursor-pointer`}
-          onClick={() => setIsOpenNav(!isOpenNav)}
+            isOpenNav ? 'right-4 top-4' : 'right-2 top-2'
+          } absolute  cursor-pointer`}
         >
           {isOpenNav ? (
-            <span className='icon-[material-symbols--close-fullscreen-rounded] text-xl animate-flip-y' />
+            <ButtonAtom
+              onlyIcon={true}
+              type='flat'
+              icon='icon-[material-symbols--close-fullscreen-rounded] text-xl animate-flip-y'
+              action={() => setIsOpenNav(!isOpenNav)}
+            ></ButtonAtom>
           ) : (
-            <span className='icon-[mingcute--fullscreen-2-line] text-xl animate-flip-x' />
+            <ButtonAtom
+              onlyIcon={true}
+              type='flat'
+              icon='icon-[mingcute--fullscreen-2-line] text-xl animate-flip-x'
+              action={() => setIsOpenNav(!isOpenNav)}
+            ></ButtonAtom>
           )}
         </div>
 
