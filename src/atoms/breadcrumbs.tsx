@@ -1,6 +1,5 @@
 import { Breadcrumbs, BreadcrumbItem } from '@nextui-org/react';
-import { useLocation } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 export const BreadcrumbsAtom = () => {
   const navigate = useNavigate();
